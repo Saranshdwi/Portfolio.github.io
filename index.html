@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+</head>
+<body>
+    <header>
+    <h1>My Portfolio.</h1>
+    <nav>
+        <ul>
+        <li><a id="1" href="#education">Education</a></li>
+        <li><a id="2" href="#skills">Skills</a></li>
+        <li><a id="3" href="#projects">Projects</a></li>
+        <li><a id="4" href="#about">Contact me</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="mane">
+            <div id="intro">
+                <p id="hello">Hello!</p>
+                <p id="name">I am Saransh Dwivedi</p>
+                <p id="role">Web Developer/Content Writer</p>
+                <div id="typed-text"></div>
+   <script>
+      var typed = new Typed('#typed-text', {
+         strings: ["My hobbies include reading books", "My hobbies include watching movies","Apart from this I am also interested in space tech."],
+         typeSpeed: 40,
+         backSpeed: 10,
+         loop: true
+     });
+   </script>
+            </div>
+            <div id="image">
+                    <img src="Profile.jpeg" alt="image">
+            </div>
+        </section>
+
+        <section id="education">
+                <h2>Education:</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Sr no.</th>
+                        <th>Course</th>
+                        <th>Result</th>
+                        <th>Year</th>
+                        <th>School/College</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>10 <sup>th</sup></td>
+                            <td>98.67%</td>
+                            <td>2020</td>
+                            <td>Doon Public School</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>12<sup>th</sup>(PCM)</td>
+                            <td>92%</td>
+                            <td>2022</td>
+                            <td>Doon Public School</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>B.Tech(Electrical Engineering)</td>
+                            <td>8.42 CGPA</td>
+                            <td>currently running</td>
+                            <td>VNIT,Nagpur</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <section id="skills">
+            <h2>Skills:</h2>
+            <ul id="skill">
+                <li>Competitive Programming <img class="png"src="c.png" alt="c"> <img class="png" src="C++.png" alt="C++"> <img class="png" src="python.png" alt="python"><img class="png" src="java.png" alt="java"> </li>
+                <li>Web Development <img class="html" src="htmlcssjs.png" alt="html"></li>
+                <li>Content-Writing <img class ="book" src="book.png" alt="book"></li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects:</h2>
+            <p id ="p1">Here's my project:</p>
+            <div id="proj">
+            <a href="https://github.com/Saranshdwi/E-Cell-Task" target="_blank" ><img id="pro"src="github.png" alt="github"></a>
+            <p id="p2">E-Cell Project</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Contact me</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+    
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+    
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+    
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+        
+    </main>
+
+    <footer>
+        <h3>Contacts:</h3>
+        <a href="https://instagram.com/saranshdwi32?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><img class ="foot"src="instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/saransh-dwivedi-30847a261" target="_blank"><img class ="foot"src="linkedin.png" alt=""></a>
+        <a href="https://wa.me/+918959481967" target="_blank"><img class="whatsapp" src="whatsapp.png" alt=""></a>
+        <p>&copy; Saransh's Portfolio & Co. all rights reserved</p>
+    </footer>
+    
+</body>
+</html>

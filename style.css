@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(3, 3, 43);
+    height:100px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right:40px;
+  }
+
+
+h1{
+    color: burlywood;
+    font-family:poppins;
+    font-weight: bold;
+    font-size:60px;
+    margin-left: 80px;
+}
+a{
+    color: white;
+    font-family:poppins;
+    text-decoration: none;
+    font-size:16px;
+    margin-bottom: 20px;
+    }
+a:hover{
+  color:cornflowerblue;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    background-color: black;
+    
+}
+
+#hello{
+    color:khaki;
+    font-family:poppins;
+    font-size:30px;
+}
+#mane{
+    display:flex;
+}
+#intro{
+    margin:150px 100px 0 150px;
+}
+#name{
+    color:khaki;
+    font-family:poppins;
+    font-size: 50px;
+}
+#role{
+  margin-top:20px;
+    color: khaki;
+    font-family:poppins;
+    font-size: 20px;
+    background-color: rgb(4, 6, 40);
+    width:320px;
+}
+#typed-text{
+  margin:20px 0 0 0;
+  font-size: 20px;
+  font-family:poppins;
+  font-weight: 800;
+  color:khaki;
+}
+img{
+    margin:100px 200px 0 170px;
+    width:360px;
+    border:5px rgb(3, 3, 43) bold;
+    border-radius: 50%;
+
+}
+h2{
+    color:cornflowerblue;
+    font-family:poppins;
+    margin-left:20px;
+}
+/* Education-Section */
+#education{
+    color:azure;
+    font-size: 20px;
+    font-family: poppins;
+    margin-top:140px;
+}   
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  thead{
+    background-color: rgb(42, 8, 74);
+  }
+  thead th, tbody td {
+    padding: 1rem;
+    text-align:center;
+  }
+
+  /* Skills-Section */
+#skills{
+    margin-top:100px;
+    font-size:20px;
+}
+
+li{
+    display:flex;
+    color:azure;
+    font-family: poppins;
+    margin:20px 0 0 40px;
+}
+.png{
+    border-radius:0;
+    margin: 0 0 0 20px;
+    width:50px;
+}
+.html{
+    margin:0 0 0 20px;
+    width:150px;
+}
+.book{
+    margin:0 0 0 20px;
+    width:80px;
+    border-radius:0;
+}
+
+/* Project */
+#projects{
+    margin-top:100px;
+    font-size:20px;
+}
+#p1{
+    margin:20px 0 0 40px;
+    color:azure;
+}
+#pro{
+    margin:0 0 0 40px;
+    width:100px;
+}
+#proj{
+    display: flex;
+}
+#p2{
+    margin:40px 0 0 20px;
+    color:azure;
+}
+
+/* About */
+#about {
+    background-color: black;
+    color: #fff;
+    font-size:20px;
+    padding:0 300px 0 350px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 700px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 5rem;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    width: 100px;
+    height:50px;
+  }
+
+  footer{
+    background-color:rgb(3, 3, 43);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  h3{
+    color:cornflowerblue;
+    margin:20px 0 20px 20px;
+  }
+  .foot{
+    margin:0 0 0 40px;
+    border-radius: 0;
+    width: 40px;
+    padding:20px 10px 40px 0;
+  }
+  .whatsapp{
+    margin:0 0 42px 40px;
+    width:35px;
+    border-radius:0;
+  }
